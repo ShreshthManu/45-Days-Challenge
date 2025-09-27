@@ -1,0 +1,123 @@
+* {
+    font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+    padding: 0;
+    margin: 0;
+
+}
+
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    height: 100vh;
+    background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+    color: #333;
+}
+
+.quote-box {
+    text-align: center;
+    margin: 10px 20px;
+    padding: 30px;
+    height: fit-content;
+    width: 700px;
+    box-shadow: 0 10px 25px rgba(0, 0, 0, 0.15);
+    border-radius: 15px;
+    border:solid 2px #764ba241
+}
+h1{
+    font-weight: 800;
+    font-style: oblique;
+    text-decoration: underline solid  4px;
+}
+.quote{
+    color : cyan;
+    font-style: initial;
+    margin: 20px;
+    }
+.author{
+    color:cyan;
+    font-style:italic;
+    margin: 20px;
+} 
+.share-buttons,.fetch-quote {
+  display: flex;
+  justify-content: center;
+  gap: 10px;
+  margin-top: 10px;
+}
+#copyBtn{
+    color:black;
+}
+.social-btn,.fetch {
+  display: flex;
+  align-items: center;
+  gap: 8px;
+  padding: 8px 12px;
+  border: none;
+  border-radius: 8px;
+  cursor: pointer;
+  color: white;
+  font-weight: bold;
+  transition: 0.3s;
+}
+.fetch{
+    background-color: rgb(177, 86, 177);
+}
+.fetch:hover{
+    background-color: rgb(218, 62, 218);
+}
+.social-btn i {
+  font-size: 1.1rem;
+}
+
+.social-btn.twitter {
+  background: #1da1f2;
+}
+.social-btn.twitter:hover {
+  background: #0d8ddb;
+}
+
+.social-btn.linkedin {
+  background: #0077b5;
+}
+.social-btn.linkedin:hover {
+  background: #005983;
+}
+
+.social-btn.whatsapp {
+  background: #25d366;
+}
+.social-btn.whatsapp:hover {
+  background: #1da851;
+}
+.loader {
+  display: none;
+  align-items: center;
+  justify-content: center;
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+  font-size: 20px;
+  color: #ffffff;
+  margin:20px;
+}
+
+
+.loader-circle {
+  width: 12px;
+  height: 12px;
+  border: 3px solid #fff; /* circle border color */
+  border-top: 3px solid transparent; /* makes it spin nicely */
+  border-radius: 50%; /* makes it round */
+  margin-right: 10px; /* space between circle and text */
+  animation: spin 1s linear infinite;
+  
+}
+
+
+@keyframes spin {
+  0% { transform: rotate(0deg); }
+  100% { transform: rotate(360deg); }
+}
+label{
+    color:white;
+}

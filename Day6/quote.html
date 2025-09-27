@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Day 6</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/7.0.1/css/all.min.css"
+        integrity="sha512-2SwdPD6INVrV/lHTZbO2nodKhrnDdJK9/kg2XD1r9uGqPo1cUbujc+IYdlYdEErWNu69gVcYgdxlmVmzTWnetw=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+</head>
+
+<body>
+    <div class="quote-box">
+        <h1>Quotes</h1>
+        <div class="loader">
+            <span class="loader-circle"></span>
+            Loading..
+        </div>
+        <h2 class="quote">Fetch Quote</h2>
+        <h4 class="author">Fetch Author</h4>
+        <label for="category">Category:</label>
+        <select name="category" id="category" class="category">
+            <option value="">All</option>
+            <option value="wisdom">Wisdom</option>
+            <option value="friendship">Friendship</option>
+            <option value="inspirational">Inspirational</option>
+        </select>
+        <div class="fetch-quote">
+            <button class="fetch">Fetch Quote</button>
+            <button id="copyBtn" class="social-btn">Copy</button>
+        </div>
+        <div class="buttons">
+            <h3>Share:-</h3>
+            <div class="share-buttons">
+                <button id="shareTwitter" class="social-btn twitter">
+                    <i class="fab fa-twitter"></i> Tweet
+                </button>
+                <button id="shareLinkedIn" class="social-btn linkedin">
+                    <i class="fab fa-linkedin"></i> LinkedIn
+                </button>
+                <button id="whatsappBtn" class="social-btn whatsapp">
+                    <i class="fab fa-whatsapp"></i> WhatsApp
+                </button>
+
+            </div>
+        </div>
+    </div>
+    <script src="script.js"></script>
+</body>
+
+</html>
