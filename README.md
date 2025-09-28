@@ -5,3 +5,4 @@
 ## Day-4 JS Array & Object Methods
 ## Day-5 Business Card with Light & Dark Modes + Counter
 ## Day-6 Create a Random Quote Generator With API Integration
+## Day-7 Created a API using Node, Express.
