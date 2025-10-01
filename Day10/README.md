@@ -28,7 +28,7 @@ This API allows you to **create** and **retrieve** projects from a MongoDB datab
 1. **Clone the repository**
    ```bash
    git clone <https://github.com/ShreshthManu/45-Days-Challenge.git>
-   cd <Day9>
+   cd <Day10>
 
 2. **Install Dependencies**
     ``` bash
