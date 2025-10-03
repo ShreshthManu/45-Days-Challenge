@@ -10,3 +10,4 @@
 ## Day-9 Connected Express API with MongoDB (Projects Collection – Create & Fetch)  
 ## Day-10 Added Project Validation & Timestamp Fields in MongoDB Documents  
 ## Day-11 Implemented Update (PUT) & Delete (DELETE) Endpoints for Projects API
+## Day-12 Built Blog Posts & Tasks API with Express.js & MongoDB
